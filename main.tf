@@ -1,6 +1,6 @@
 
 # Use AWS Terraform provider
-provider "my_aws" {
+provider "aws" {
   region = "ap-south-1"
 }
 
