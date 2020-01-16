@@ -6,7 +6,13 @@ This repository will demonstrate an example GitOps workflow with Terraform and J
 
 The configuration in this repository was run using `Terraform v0.11.13`.
 
+## cmd for terraform  
+sudo yum install wget unzip
 
+wget https://releases.hashicorp.com/terraform/0.11.13/terraform_0.11.13_linux_amd64.zip
+
+sudo unzip ./terraform_0.11.13_linux_amd64.zip -d /usr/local/bin/
+#####################################
 ## Requirements
 
 * Terraform installed on Jenkins
